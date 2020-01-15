@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="171310" started-at="2020-01-15T17:48:29Z" finished-at="2020-01-15T17:51:20Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="171310" started-at="2020-01-15T17:48:29Z" finished-at="2020-01-15T17:51:20Z">
+      <class name="com.qa.test.ContacatTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.test.ContacatTest@42e26948]" name="setup" is-config="true" duration-ms="56760" started-at="2020-01-15T23:18:32Z" finished-at="2020-01-15T23:19:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="createnewcontact(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.qa.test.ContacatTest@42e26948]" name="createnewcontact" duration-ms="4492" started-at="2020-01-15T23:19:29Z" data-provider="getCRMdata" finished-at="2020-01-15T23:19:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tom]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Peter]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Amazon]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[tom.peter123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createnewcontact -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.test.ContacatTest@42e26948]" name="setup" is-config="true" duration-ms="38271" started-at="2020-01-15T23:19:33Z" finished-at="2020-01-15T23:20:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="createnewcontact(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.qa.test.ContacatTest@42e26948]" name="createnewcontact" duration-ms="3811" started-at="2020-01-15T23:20:12Z" data-provider="getCRMdata" finished-at="2020-01-15T23:20:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chris]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Patt]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[google1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[chrispatt129]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createnewcontact -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.test.ContacatTest@42e26948]" name="setup" is-config="true" duration-ms="60050" started-at="2020-01-15T23:20:16Z" finished-at="2020-01-15T23:21:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="createnewcontact(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.qa.test.ContacatTest@42e26948]" name="createnewcontact" duration-ms="4274" started-at="2020-01-15T23:21:16Z" data-provider="getCRMdata" finished-at="2020-01-15T23:21:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rahul]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[yadav]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[facebook]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[yadav678]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createnewcontact -->
+      </class> <!-- com.qa.test.ContacatTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
