@@ -1,7 +1,7 @@
 package com.qa.util;
 
 import java.io.File;
-import org.apache.commons.io.FileUtils;
+/*import org.apache.commons.io.FileUtils;*/
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -55,14 +55,14 @@ public class TestUtil extends  TestBase{
 		return obj;
 	}
 	
-	public static void takescreenshotonexception() throws Exception
+	/*public static void takescreenshotonexception() throws Exception
 	{
 		
 		
 		File src=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		String currentdir=System.getProperty("user.dir");
 		FileUtils.copyFile(src,new File(currentdir+"\\screenshot\\"+System.currentTimeMillis()+".png"));
-	}
+	}*/
 
 		
 }	
